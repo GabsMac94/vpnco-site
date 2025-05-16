@@ -23,11 +23,11 @@ body {
     background-color: #001f3f;
     padding: 0.5rem 2rem;
     color: white;
-    position: fixed;
-    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Removido position: fixed */
     width: 100%;
     z-index: 999;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
 }
 
 .nav-brand {
@@ -51,10 +51,6 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-5px); }
     to { opacity: 1; transform: translateY(0); }
-}
-
-body {
-    padding-top: 80px;
 }
 
 .logo {

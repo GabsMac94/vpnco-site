@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -24,7 +25,6 @@ body {
     padding: 0.5rem 2rem;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Removido position: fixed */
     width: 100%;
     z-index: 999;
     margin-bottom: 2rem;
@@ -49,7 +49,7 @@ body {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-5px); }
+    from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
@@ -74,10 +74,25 @@ body {
     color: #ffd700;
 }
 
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background: white;
+    margin: 4px 0;
+    border-radius: 2px;
+}
+
 /* Seções */
 .section {
     padding: 4rem 2rem;
     text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
 }
 
 .light-bg {
@@ -164,9 +179,13 @@ footer p {
     .nav-links {
         flex-direction: column;
         gap: 1rem;
+        display: none;
     }
-    .cards {
-        grid-template-columns: 1fr;
+    .nav-links.active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: flex;
     }
     .nav-brand {
         flex-direction: column;

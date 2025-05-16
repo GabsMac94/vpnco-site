@@ -19,6 +19,7 @@ Oferecer uma solução de infraestrutura de TI para empresas adotarem o modelo d
 - CSS3
 - JavaScript (Vanilla)
 - GitHub Pages (para hospedagem)
+- Font Awesome (para ícones visuais)
 
 ---
 
@@ -30,12 +31,23 @@ Acesse o site publicado via GitHub Pages:
 
 ---
 
-## 📷 Ilustrações
+## 📷 Ilustrações e Recursos Visuais
 
-Todas as imagens utilizadas foram geradas com IA e representam os conceitos da marca fictícia **VPNCO**, incluindo:
-- Trabalho remoto
-- Diversidade na equipe
-- Sustentabilidade
+Todas as imagens foram geradas com Inteligência Artificial, representando:
+
+- Trabalho remoto com segurança e sustentabilidade
+- Equipes diversas e inclusivas
+- Logotipo institucional da empresa fictícia VPNCO
+- Layout com imagem institucional no topo do site
+
+---
+
+## 🆕 Melhorias recentes
+
+- Adição de seção com informações institucionais e compromisso com sustentabilidade
+- Inclusão de ícones nos serviços (Font Awesome)
+- Estilo responsivo adaptado para dispositivos móveis
+- Formulário funcional com feedback de envio
 
 ---
 

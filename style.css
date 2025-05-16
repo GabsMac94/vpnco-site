@@ -37,10 +37,10 @@ body {
 }
 
 .lema {
-    font-size: 1.1rem;
-    color: #ccc;
-    max-width: 300px;
-    font-weight: 400;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -167,7 +167,7 @@ footer p {
         align-items: flex-start;
     }
     .lema {
-        font-size: 1rem;
+        font-size: 1.2rem;
         max-width: 100%;
     }
     h1 {
